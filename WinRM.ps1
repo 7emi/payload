@@ -2,7 +2,7 @@
 
 $Username = "Admin"
 
-$Password = ConvertTo-SecureString "Password1" -AsPlainText -Force
+$Password = ConvertTo-SecureString "9@55w0rd" -AsPlainText -Force
 
 New-LocalUser -Name $Username -Password $Password -PasswordNeverExpires
 
